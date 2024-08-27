@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venta y Renta de Casas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header class="bg-primary text-white text-center p-4 position-relative">
+        <h1>Bienvenido a CasaIdeal</h1>
+        <p>Tu portal de venta y renta de casas</p>
+        <div class="overlay-image">
+            <img src="../imagenes/rio.gif" alt="Imagen de un río" class="img-fluid">
+        </div>
+    </header>
+
+    <!-- Carrusel -->
+    <div id="houseCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../imagenes/casa4.jpeg" class="d-block w-100" alt="Casa 1">
+            </div>
+            <div class="carousel-item">
+                <img src="../imagenes/casa5.jpeg" class="d-block w-100" alt="Casa 2">
+            </div>
+            <div class="carousel-item">
+                <img src="../imagenes/casa6.jpeg" class="d-block w-100" alt="Casa 3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#houseCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#houseCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
+
+    <!-- Sección de Propiedades -->
+    <section class="container mt-5">
+        <h2 class="text-center">Propiedades Destacadas</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="../imagenes/casa7.jpeg" class="card-img-top" alt="Casa Oferta">
+                    <div class="card-body">
+                        <h5 class="card-title">Casa en la Playa</h5>
+                        <p class="card-text">Una hermosa casa frente al mar con acceso privado a la playa.</p>
+                        <a href="detalles.html?casa=Casa7" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="../imagenes/casa2.jpeg" class="card-img-top" alt="Casa Renta">
+                    <div class="card-body">
+                        <h5 class="card-title">Casa de Campo</h5>
+                        <p class="card-text">Una acogedora casa de campo con vistas espectaculares.</p>
+                        <a href="detalles.html?casa=Casa2" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="../imagenes/casa3.jpeg" class="card-img-top" alt="Casa de Lujo">
+                    <div class="card-body">
+                        <h5 class="card-title">Casa en la Ciudad</h5>
+                        <p class="card-text">Una moderna casa en el corazón de la ciudad.</p>
+                        <a href="detalles.html?casa=Casa3" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de Página -->
+    <footer class="bg-primary text-white text-center p-4 mt-5">
+        <p>&copy; 2023 CasaIdeal. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
